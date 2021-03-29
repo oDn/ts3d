@@ -1,0 +1,81 @@
+{
+    "red": [
+        {
+            "area-of-production": "Central Europe",
+            "weather": "Clouds",
+            "quality-value": 2
+        }
+    ],
+    "orange": [
+        {
+            "area-of-production": "South Africa",
+            "weather": "Clear",
+            "quality-value": 2
+        },
+        {
+            "area-of-production": "North America",
+            "weather": "Clouds",
+            "quality-value": 1
+        }
+    ],
+    "yellow": [
+        {
+            "area-of-production": "Western Europe",
+            "weather": "Thunderstorm",
+            "quality-value": 2
+        },
+        {
+            "area-of-production": "Eastern Europe",
+            "weather": "Clear",
+            "quality-value": 1
+        }
+    ],
+    "green": [
+        {
+            "area-of-production": "Antarctica",
+            "weather": "Clouds",
+            "quality-value": 2
+        },
+        {
+            "area-of-production": "Eastern Europe",
+            "weather": "Clear",
+            "quality-value": 1
+        }
+    ],
+    "blue": [
+        {
+            "area-of-production": "Asia",
+            "weather": "Rain",
+            "quality-value": 2
+        },
+        {
+            "area-of-production": "North Africa",
+            "weather": "Clear",
+            "quality-value": 1
+        }
+    ],
+    "indigo": [
+        {
+            "area-of-production": "South America",
+            "weather": "Drizzle",
+            "quality-value": 2
+        },
+        {
+            "area-of-production": "Asia",
+            "weather": "Rain",
+            "quality-value": 1
+        }
+    ],
+    "violet": [
+        {
+            "area-of-production": "South Africa",
+            "weather": "Snow",
+            "quality-value": 2
+        },
+        {
+            "area-of-production": "Australia",
+            "weather": "Thunderstorm",
+            "quality-value": 1
+        }
+    ]
+}
