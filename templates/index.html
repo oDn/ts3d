@@ -1,0 +1,24 @@
+{% include 'header.html' %} 
+{% include 'sidebar.html' %}
+<div id="content">
+    <div id=rainbow class="box">
+    {% for key, value in data.items() %}
+        <div class="rainbow-box {{ key }}">
+            <span class="label">Color:</span> {{ key }}<br />
+            <span class="label">Area of Production:</span> {{ value['area-of-production'] }}<br />
+            <span class="label">Weather:</span> {{ value['weather'] }}<br />
+            <span class="label">Quality:</span> {{ value['quality-value'] }}<br />
+            <span class="label">> Current weather:</span> {{ value['current-weather'] }}<br />
+            <div class="debug">
+                Debug: <br />
+                <ul>
+                    <li>Cache Used = {{ value['debug']['cache'] }}</li>
+                    <li>Fallback = {{ value['debug']['fallback'] }}</li>
+                    <li>Fallback City = {{ value['debug']['fallback-city']}}</li>
+                </ul>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% include 'footer.html' %}
