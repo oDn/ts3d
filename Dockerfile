@@ -5,8 +5,9 @@ WORKDIR /app
 
 RUN apt-get -y update
 RUN apt-get -y upgrade
+RUN python3 -m pip install --upgrade pip
 RUN python3 -m pip install -r requirements.txt
 
-EXPOSE 5001
+EXPOSE 8000
 
 ENTRYPOINT ["/app/gunicorn.sh"]
