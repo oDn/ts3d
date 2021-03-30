@@ -8,6 +8,6 @@ RUN apt-get -y upgrade
 RUN python3 -m pip install --upgrade pip
 RUN python3 -m pip install -r requirements.txt
 
-EXPOSE 8000
+EXPOSE 8003
 
 ENTRYPOINT ["/app/gunicorn.sh"]
